@@ -1,0 +1,38 @@
+.header {
+    background-color: #95482b;
+}
+
+.header .container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.content_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.logo span {
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.header .nav_bar {
+    max-width: 400px;
+    width: 100%;
+}
+
+.header .nav_bar .nav_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

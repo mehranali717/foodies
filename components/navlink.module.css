@@ -1,0 +1,14 @@
+.link {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-in-out;
+}
+
+.link:hover,
+.link:active {
+    background: linear-gradient(90deg, #ff0505, #c2a501);
+    background-clip: text;
+    text-shadow: 0 0 18px #26ae00;
+}

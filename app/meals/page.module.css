@@ -1,0 +1,30 @@
+.meals_wrapper {
+padding: 40px 0px;
+}
+.main_heading {
+    font-size: 56px;
+    text-transform: capitalize;
+    color: #b7b3b3;
+    padding-bottom: 20px;
+}
+.main_heading span {
+    color: #b35905;
+}
+.section_description {
+    color: #b7b3b3;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.cta {
+    background:linear-gradient(90deg, #874100, #ab9100);
+    max-width: 500px;
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.cta a {
+    color: #b7b3b3;
+    font-size: 32px;
+    font-weight: 600;
+}
