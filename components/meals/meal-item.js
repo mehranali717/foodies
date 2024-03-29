@@ -1,11 +1,11 @@
-import Image from "next/image";
 import classes from "./meal-item.module.css";
 import Link from "next/link";
 const MealItem = ({title, slug, image, summery, creater}) => {
+  console.log({image});
   return (
     <article className={classes.meal}>
       <header>
-        <Image src={image} alt={title} fill/>
+        <img src={image.src} alt={"title"} />
         <div>
           <h2>{title}</h2>
           <p>by {creater}</p>

@@ -10,7 +10,7 @@ const Header = () => {
         <div className={classes.content_inner}>
           <div>
             <Link href="/" className={classes.logo}>
-              <Image src={logo.src} height={90} width={90} alt="Logo" />
+              <Image src={logo.src} height={90} width={90} alt="Logo" placeholder="blur" blurDataURL={logo.src}/>
               <span> NextLevel Meals</span>
             </Link>
           </div>

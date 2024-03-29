@@ -12,11 +12,11 @@ const Hero = () => (
             <h1 className={classes.main_heading}>
               NextLevel Food For NextLevel Foodies
             </h1>
-            <p>Taste & Share food from all over the world</p>
+            <p className={classes.section_description}>Taste & Share food from all over the world</p>
           </div>
-          <div>
-            <Link href="/community">Join The Community</Link>
-            <Link href="/meals">Share The Meals</Link>
+          <div className={`${classes.btn_wrapper} `}>
+            <button className="default-btn"><Link href="/community">Join The Community</Link></button>
+            <button className="default-btn"><Link href="/meals">Share The Meals</Link></button>
           </div>
         </div>
       </div>
