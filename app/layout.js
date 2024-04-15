@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className="wrapper">
         <Header />
-        <div className={inter.className}>{children}</div>
+        <div className="pages_wrapper">{children}</div>
       </body>
     </html>
   );

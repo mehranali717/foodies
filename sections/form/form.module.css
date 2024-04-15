@@ -1,0 +1,33 @@
+.form {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.row p {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form .field_Wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+
+.field_Wrapper .label {
+    color: #878686;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.row input,
+.row textarea {
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: 1px solid #878686;
+    color: #878686;
+    letter-spacing: 1px;
+    width: 100%;
+}

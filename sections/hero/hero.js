@@ -16,7 +16,7 @@ const Hero = () => (
           </div>
           <div className={`${classes.btn_wrapper} `}>
             <button className="default-btn"><Link href="/community">Join The Community</Link></button>
-            <button className="default-btn"><Link href="/meals">Share The Meals</Link></button>
+            <button className="default-btn"><Link href="/meals/share">Share The Meals</Link></button>
           </div>
         </div>
       </div>

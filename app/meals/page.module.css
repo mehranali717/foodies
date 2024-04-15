@@ -28,3 +28,22 @@ padding: 40px 0px;
     font-size: 32px;
     font-weight: 600;
 }
+/* Loader styling*/
+.loading {
+    text-align: center;
+    animation: loading 1.2s ease-in-out infinite;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+@keyframes loading {
+    0% {
+        color: #959191;
+    }
+    50% {
+        color: #f47005;
+    }
+    100% {
+        color: #959191;
+    }
+}

@@ -1,0 +1,11 @@
+.header {
+    
+    width: 50%;
+    margin: 0px auto;
+}
+.header p{
+    color: #878686;
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}

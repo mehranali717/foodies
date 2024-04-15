@@ -1,23 +1,23 @@
 import classes from "./meal-item.module.css";
 import Link from "next/link";
-const MealItem = ({title, slug, image, summery, creater}) => {
-  console.log({image});
+import Image from "next/image";
+const MealItem = ({ title, slug, image, summery, creator }) => {
   return (
     <article className={classes.meal}>
       <header>
-        <img src={image.src} alt={"title"} />
-        <div>
+        <Image src={image} alt={title} width={100} height={100}/>
+        <div className={classes.card_head}>
           <h2>{title}</h2>
-          <p>by {creater}</p>
+          <p>by: {creator}</p>
         </div>
       </header>
       <div className={classes.content}>
         <p className={classes.summery}>{summery}</p>
         <div className={classes.action}>
-            <Link href={`/meals/${slug}`}>View Details</Link>
+          <Link href={`/meals/${slug}`}>View Details</Link>
         </div>
       </div>
     </article>
   );
 };
-export default MealItem
+export default MealItem;

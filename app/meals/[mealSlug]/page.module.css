@@ -1,0 +1,43 @@
+.detail_Wrapper {
+    width: 700px;
+    margin: 40px auto;
+}
+.header {
+    display: flex;
+    column-gap: 20px;
+    padding-bottom: 20px;
+}
+.headerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.headerText .creator {
+    font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #a6a5a5;
+}
+.creator a{
+  margin: 0;
+  font-weight: 900;
+  color: #262626;
+  background: linear-gradient(90deg, #f9572a, #ffcc00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+}
+.headerText h1 {
+    text-align: left;
+} 
+.headerText .summary {
+    color: #a6a5a5;
+}
+.instructions {
+    color: #292828;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #a6a5a5;
+}
