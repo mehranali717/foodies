@@ -1,0 +1,32 @@
+.controls {
+    display: flex;
+    align-items: start;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+.picker .input {
+    display: none;
+}
+.picker .button {
+    border: 0;
+    padding: 0.5rem 1.5rem;
+    background-color: #a4abb9;
+    border-radius: 2px;
+    cursor: pointer;
+    font: inherit;
+}
+.picker .button:hover,
+.picker .button:focus {
+    background-color: #b3b9c6;
+}
+.preview {
+    border: 2px solid #b3b9c6;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preview span {
+    color: #b3b9c6;
+}

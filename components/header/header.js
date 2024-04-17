@@ -2,7 +2,7 @@ import Link from "next/link";
 import logo from "@/assets/images/logo.png";
 import classes from "./header.module.css";
 import Image from "next/image";
-import NavLink from "../navlink";
+import NavLink from "../navLinks/navlink";
 const Header = () => {
   return (
     <header className={classes.header}>
